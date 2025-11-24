@@ -1,7 +1,7 @@
 aiogram==3.4.1
 openai==1.47.0
-torch==2.1.0
-torchvision==0.16.0
+torch==2.0.1
+torchvision==0.15.2
 timm==0.9.8
 pillow==10.2.0
 python-dotenv==1.0.1
