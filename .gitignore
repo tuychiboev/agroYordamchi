@@ -1,0 +1,31 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+env/
+
+# Ignore secrets
+config.json
+*.env
+
+# Ignore model files
+*.pth
+*.h5
+*.onnx
+
+# Ignore user data directory
+users/
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+logs/
+*.log

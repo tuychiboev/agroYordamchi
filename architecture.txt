@@ -1,0 +1,22 @@
+agroYordamchi/
+│
+├── app.py
+├── config.json
+├── users/                       # stores user data files (one JSON per user)
+│     └── 757521278.json
+│
+├── bot/
+│     └── telegram_bot.py
+│
+├── core/
+│     ├── predictor.py           # your trained PyTorch model (apple, potato, tomato)
+│     ├── leaf_detector.py       # checks if image contains a leaf/plant
+│     ├── plant_classifier.py    # GPT: detects what plant user wrote
+│     ├── disease_gpt.py         # GPT fallback for unknown crops
+│     ├── topic_guard.py         # checks if text is agriculture related
+│     ├── language_manager.py    # handles multilingual output
+│     ├── grammar_fix.py         # GPT grammar correction
+│     └── user_storage.py        # save/load user settings
+│
+└── disease_model/
+      └── model.pth              # your EfficientNet-B3 trained model

@@ -1,0 +1,8 @@
+aiogram==3.4.1
+torch
+torchvision
+timm
+openai
+Pillow
+httpx
+python-dotenv
